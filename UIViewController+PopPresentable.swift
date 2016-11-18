@@ -1,6 +1,6 @@
 //
 //  UIViewController+PopPresentable.swift
-//  JUSTEAT
+//  UIViewController+PopPresentable
 //
 //  Created by Shabeer Hussain on 17/10/2016.
 //  Copyright © 2016 Desert Monkey. All rights reserved.
