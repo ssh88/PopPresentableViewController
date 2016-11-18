@@ -9,14 +9,13 @@ The API has been named in the similar fashion of the standard present view contr
 On the parent view controller simplly call 
 
 ```
-func presentViewControllerAsPopover(_ viewControllerToPresent: UIViewController,
-                                        permittedArrowDirections: UIPopoverArrowDirection,
-                                        sourceView: UIView?,
-                                        sourceRect: CGRect,
-                                        delegate:UIPopoverPresentationControllerDelegate?,
-                                        animated: Bool,
-                                        completion: (() -> Void)?) {
-
+self.presentViewControllerAsPopover(childViewController,
+                                            permittedArrowDirections: .any,
+                                            sourceView: view,
+                                            sourceRect: rect,
+                                            delegate: self,
+                                            animated: true,
+                                            completion: nil)
 ```
 
 passing in the view controller to present. As expected, also works with Objective-C: 
