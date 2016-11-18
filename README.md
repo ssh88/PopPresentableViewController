@@ -1,8 +1,8 @@
 # PopPresentableViewController
 
-As UIPopoverController is now depricated (iOS 8+), this is a simple swift extension to allow a View Controller to present a child view controller as a PopoverPresentationController.
+As ```UIPopoverController``` is now depricated (iOS 8+), this is a simple swift extension to allow a ```UIViewController``` to present a child view controller as a PopoverPresentationController.
 
-The API has been named in the similar fashion of the standard present view controller function :  ```present(_ viewControllerToPresent: UIViewController, animated flag: Bool, completion: (@escaping () -> Swift.Void)? = nil)``` 
+The API has been named in similar fashion to the standard present view controller function.
 
 ### Usage
 
